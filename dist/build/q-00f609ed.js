@@ -1,0 +1,1 @@
+import{O as e,c as a,_ as t}from"./q-302ec242.js";let r=e(a(()=>t(()=>import("./q-49cb685b.js"),["build/q-49cb685b.js","build/q-302ec242.js"]),"s_PLe07Ve9vVY")),s={title:"Error 404"};export{r as default,s as head};

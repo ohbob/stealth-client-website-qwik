@@ -1,0 +1,33 @@
+---
+title: BeardLayer
+published : 2022-05-18T19:17:51.127Z
+author: Vizit0r
+summary: API
+layout: blog
+---
+
+# {title}
+
+Returns layer number $10 - Beard (Facial Hair Beard).
+
+Normally, that should be a simple constant, not function. But due to backwards compatibility it should be keeped as function.
+
+<br> 
+### DWS\Pascal Script:
+
+```pascal
+function BeardLayer : Byte;
+```
+
+DWS\Pascal Script Example:
+
+```pascal
+if ObjAtLayer(BeardLayer) > 0 then 
+  AddToSystemJournal('Beard ID: $' + IntToHex(ObjAtLayer(BeardLayer),8));
+```
+
+### Python:
+
+```python
+def BeardLayer(): --> ubyte
+```

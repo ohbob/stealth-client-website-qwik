@@ -1,0 +1,1 @@
+import{_ as e}from"./q-302ec242.js";let o=()=>e(()=>import("./q-8ea06850.js"),[]);export{o as ServiceworkerServiceWorker};

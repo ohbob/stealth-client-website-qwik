@@ -1,0 +1,27 @@
+const staticPaths = new Set(["/","/404.html","/_headers","/blog/","/blog/demo-post-1/","/blog/demo-post-2/","/blog/demo-post-3/","/blog/demo-post-4/","/blog/demo-post-5/","/blog/demo-post-6/","/docs/","/docs/AddChatUserIgnore/","/docs/AddFigure/","/docs/AddGumpIgnoreByID/","/docs/AddGumpIgnoreBySerial/","/docs/AddJournalIgnore/","/docs/AddToDebugJournal/","/docs/AddToJournal/","/docs/AddToSystemJournal/","/docs/Alarm/","/docs/Armor/","/docs/ArmsLayer/","/docs/Attack/","/docs/AutoBuy/","/docs/AutoBuyEx/","/docs/AutoMenu/","/docs/AutoSell/","/docs/BM/","/docs/BMCount/","/docs/BMSearch/","/docs/BP/","/docs/BPCount/","/docs/Backpack/","/docs/BandageSelf/","/docs/BankLayer/","/docs/BeardLayer/","/docs/Beep/","/docs/Bow/","/docs/BpackLayer/","/docs/BraceLayer/","/docs/CalcDir/","/docs/CancelAllMenuHooks/","/docs/CancelTarget/","/docs/CancelTrade/","/docs/CancelWaitTarget/","/docs/Cast/","/docs/CastToObject/","/docs/ChangeProfile/","/docs/CharName/","/docs/CharTitle/","/docs/CheckLOS/","/docs/CheckLag/","/docs/ClearBadLocationList/","/docs/ClearBadObjectList/","/docs/ClearChatUserIgnore/","/docs/ClearFigures/","/docs/ClearGumpsIgnore/","/docs/ClearInfoWindow/","/docs/ClearJournal/","/docs/ClearJournalIgnore/","/docs/ClearShopList/","/docs/ClickOnObject/","/docs/ClientPrint/","/docs/ClientPrintEx/","/docs/ClientRequestObjectTarget/","/docs/ClientRequestTileTarget/","/docs/ClientTargetResponse/","/docs/ClientTargetResponsePresent/","/docs/ClipboardGetString/","/docs/ClipboardSetString/","/docs/CloakLayer/","/docs/CloseClientGump/","/docs/CloseClientUIWindow/","/docs/CloseMenu/","/docs/CloseSimpleGump/","/docs/ColdResist/","/docs/ConfirmTrade/","/docs/Connect/","/docs/Connected/","/docs/ConnectedTime/","/docs/ConsoleEntryReply/","/docs/ConsoleEntryUnicodeReply/","/docs/ConvertIntegerToFlags/","/docs/Count/","/docs/CountEx/","/docs/CountGround/","/docs/CurrentLine/","/docs/CurrentScriptPath/","/docs/Dead/","/docs/Dex/","/docs/Disarm/","/docs/Disconnect/","/docs/DisconnectedTime/","/docs/Dist/","/docs/DragItem/","/docs/DressSavedSet/","/docs/DressSpeed/","/docs/Drop/","/docs/DropDelay/","/docs/DropHere/","/docs/DropItem/","/docs/EUO2ID/","/docs/EUO2Type/","/docs/EarLayer/","/docs/EggsLayer/","/docs/EmptyContainer/","/docs/EnergyResist/","/docs/Equip/","/docs/EquipDressSet/","/docs/Equipt/","/docs/ExtChangeProfile/","/docs/ExtendedInfo/","/docs/FillNewWindow/","/docs/FindAtCoord/","/docs/FindCount/","/docs/FindDistance/","/docs/FindFullQuantity/","/docs/FindItem/","/docs/FindNotoriety/","/docs/FindQuantity/","/docs/FindType/","/docs/FindTypeEx/","/docs/FindTypesArrayEx/","/docs/FindVertical/","/docs/FireResist/","/docs/FoundedParamId/","/docs/GA/","/docs/GACount/","/docs/GS/","/docs/GSCount/","/docs/GetARStatus/","/docs/GetActiveAbility/","/docs/GetAltName/","/docs/GetAutoBuyDelay/","/docs/GetAutoSellDelay/","/docs/GetBuffBarInfo/","/docs/GetCliloc/","/docs/GetColor/","/docs/GetContextMenu/","/docs/GetDex/","/docs/GetDirection/","/docs/GetDistance/","/docs/GetFindedList/","/docs/GetGlobal/","/docs/GetGumpButtonsDescription/","/docs/GetGumpFullLines/","/docs/GetGumpID/","/docs/GetGumpInfo/","/docs/GetGumpSerial/","/docs/GetGumpShortLines/","/docs/GetGumpTextLines/","/docs/GetGumpsCount/","/docs/GetHP/","/docs/GetIgnoreList/","/docs/GetInt/","/docs/GetLandTileData/","/docs/GetLandTilesArray/","/docs/GetLayer/","/docs/GetMana/","/docs/GetMapCell/","/docs/GetMaxHP/","/docs/GetMaxMana/","/docs/GetMaxStam/","/docs/GetName/","/docs/GetNextStepZ/","/docs/GetNotoriety/","/docs/GetParent/","/docs/GetPathArray/","/docs/GetPathArray3D/","/docs/GetPrice/","/docs/GetQuantity/","/docs/GetRunMountTimer/","/docs/GetRunUnMountTimer/","/docs/GetSkillCap/","/docs/GetSkillCurrentValue/","/docs/GetSkillLockState/","/docs/GetSkillValue/","/docs/GetStam/","/docs/GetStatLockState/","/docs/GetStaticTileData/","/docs/GetStaticTilesArray/","/docs/GetStr/","/docs/GetTitle/","/docs/GetTooltip/","/docs/GetTooltipRec/","/docs/GetType/","/docs/GetWalkMountTimer/","/docs/GetWalkUnmountTimer/","/docs/GetX/","/docs/GetY/","/docs/GetZ/","/docs/GumpAutoCheckBox/","/docs/GumpAutoRadiobutton/","/docs/GumpAutoTextEntry/","/docs/HP/","/docs/HTTP_Body/","/docs/HTTP_Get/","/docs/HTTP_Header/","/docs/HTTP_Post/","/docs/HairLayer/","/docs/Halt/","/docs/HatLayer/","/docs/Hidden/","/docs/HighJournal/","/docs/HorseLayer/","/docs/SetRunMountTimer/","/docs/SetRunUnmountTimer/","/docs/SetSkillLockState/","/docs/SetStatLockState/","/docs/SetWalkMountTimer/","/docs/SetWalkUnmountTimer/","/docs/UOSay/","/favicon.svg","/images/placeholder-1024x640.png","/manifest.json","/q-manifest.json","/robots.txt","/service-worker.js","/sitemap.xml"]);
+function isStaticPath(method, url) {
+  if (method.toUpperCase() !== 'GET') {
+    return false;
+  }
+  const p = url.pathname;
+  if (p.startsWith("/build/")) {
+    return true;
+  }
+  if (p.startsWith("/assets/")) {
+    return true;
+  }
+  if (staticPaths.has(p)) {
+    return true;
+  }
+  if (p.endsWith('/q-data.json')) {
+    const pWithoutQdata = p.replace(/\/q-data.json$/, '');
+    if (staticPaths.has(pWithoutQdata + '/')) {
+      return true;
+    }
+    if (staticPaths.has(pWithoutQdata)) {
+      return true;
+    }
+  }
+  return false;
+}
+export { isStaticPath };
