@@ -5,9 +5,6 @@ specifiers:
   '@builder.io/qwik-city': 1.2.3
   '@divriots/jampack': ^0.13.0
   '@fontsource-variable/inter': ^5.0.3
-  '@fortawesome/fontawesome-svg-core': ^6.4.0
-  '@fortawesome/free-solid-svg-icons': ^6.4.0
-  '@fortawesome/react-fontawesome': ^0.2.0
   '@tailwindcss/typography': ^0.5.9
   '@types/eslint': 8.40.2
   '@types/markdown-it': ^12.2.3
@@ -23,7 +20,6 @@ specifiers:
   node-fetch: 3.3.1
   postcss: ^8.4.24
   prettier: 2.8.8
-  qwik-fontawesome: 0.2.0
   tailwindcss: ^3.3.2
   typescript: 5.1.6
   vite: 4.3.9
@@ -33,14 +29,10 @@ dependencies:
   '@builder.io/qwik': 1.2.3
   '@builder.io/qwik-city': 1.2.3
   '@fontsource-variable/inter': 5.0.5
-  '@fortawesome/fontawesome-svg-core': 6.4.0
-  '@fortawesome/free-solid-svg-icons': 6.4.0
-  '@fortawesome/react-fontawesome': 0.2.0_ns3tanzake47edvtuk73yvnw7a
   '@unpic/qwik': 0.0.20_@builder.io+qwik@1.2.3
   gray-matter: 4.0.3
   markdown-it: 13.0.1
   node-fetch: 3.3.1
-  qwik-fontawesome: 0.2.0_tcw7cb3ew3o3ccrsxqqtzt3fsq
 
 devDependencies:
   '@divriots/jampack': 0.13.0
@@ -378,38 +370,6 @@ packages:
 
   /@fontsource-variable/inter/5.0.5:
     resolution: {integrity: sha512-hmj/jffr+1tabEPmvm+/b89MtbO6hd5PVbQ6HoMGTO7RMF5eD2C9UcprCgZTOF3OWh5uC21C9HZGN0O9wxe+UQ==}
-    dev: false
-
-  /@fortawesome/fontawesome-common-types/6.4.0:
-    resolution: {integrity: sha512-HNii132xfomg5QVZw0HwXXpN22s7VBHQBv9CeOu9tfJnhsWQNd2lmTNi8CSrnw5B+5YOmzu1UoPAyxaXsJ6RgQ==}
-    engines: {node: '>=6'}
-    requiresBuild: true
-    dev: false
-
-  /@fortawesome/fontawesome-svg-core/6.4.0:
-    resolution: {integrity: sha512-Bertv8xOiVELz5raB2FlXDPKt+m94MQ3JgDfsVbrqNpLU9+UE2E18GKjLKw+d3XbeYPqg1pzyQKGsrzbw+pPaw==}
-    engines: {node: '>=6'}
-    requiresBuild: true
-    dependencies:
-      '@fortawesome/fontawesome-common-types': 6.4.0
-    dev: false
-
-  /@fortawesome/free-solid-svg-icons/6.4.0:
-    resolution: {integrity: sha512-kutPeRGWm8V5dltFP1zGjQOEAzaLZj4StdQhWVZnfGFCvAPVvHh8qk5bRrU4KXnRRRNni5tKQI9PBAdI6MP8nQ==}
-    engines: {node: '>=6'}
-    requiresBuild: true
-    dependencies:
-      '@fortawesome/fontawesome-common-types': 6.4.0
-    dev: false
-
-  /@fortawesome/react-fontawesome/0.2.0_ns3tanzake47edvtuk73yvnw7a:
-    resolution: {integrity: sha512-uHg75Rb/XORTtVt7OS9WoK8uM276Ufi7gCzshVWkUJbHhh3svsUUeqXerrM96Wm7fRiDzfKRwSoahhMIkGAYHw==}
-    peerDependencies:
-      '@fortawesome/fontawesome-svg-core': ~1 || ~6
-      react: '>=16.3'
-    dependencies:
-      '@fortawesome/fontawesome-svg-core': 6.4.0
-      prop-types: 15.8.1
     dev: false
 
   /@humanwhocodes/config-array/0.11.10:
@@ -2392,10 +2352,6 @@ packages:
     hasBin: true
     dev: true
 
-  /js-tokens/4.0.0:
-    resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
-    dev: false
-
   /js-yaml/3.14.1:
     resolution: {integrity: sha512-okMH7OXXJ7YrN9Ok3/SXrnu4iX9yOk+25nqX4imS2npuvTYDmo/QEZoqwZkYaIDk3jVvBOTOIEgEhaLOynBS9g==}
     hasBin: true
@@ -2586,13 +2542,6 @@ packages:
 
   /longest-streak/3.1.0:
     resolution: {integrity: sha512-9Ri+o0JYgehTaVBBDoMqIl8GXtbWg711O3srftcHhZ0dqnETqLaoIK0x17fUw9rFSlK/0NlsKe0Ahhyl5pXE2g==}
-    dev: false
-
-  /loose-envify/1.4.0:
-    resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==}
-    hasBin: true
-    dependencies:
-      js-tokens: 4.0.0
     dev: false
 
   /lower-case/2.0.2:
@@ -3140,6 +3089,7 @@ packages:
   /object-assign/4.1.1:
     resolution: {integrity: sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==}
     engines: {node: '>=0.10.0'}
+    dev: true
 
   /object-hash/3.0.0:
     resolution: {integrity: sha512-RSn9F68PjH9HqtltsSnqYC1XXoWe9Bju5+213R98cNGttag9q9yAOTzdbsqvIa7aNm5WffBZFpWYr2aWrklWAw==}
@@ -3441,14 +3391,6 @@ packages:
     hasBin: true
     dev: true
 
-  /prop-types/15.8.1:
-    resolution: {integrity: sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==}
-    dependencies:
-      loose-envify: 1.4.0
-      object-assign: 4.1.1
-      react-is: 16.13.1
-    dev: false
-
   /property-information/6.2.0:
     resolution: {integrity: sha512-kma4U7AFCTwpqq5twzC1YVIDXSqg6qQK6JN0smOw8fgRy1OkMi0CYSzFmsy6dnqSenamAtj0CyXMUJ1Mf6oROg==}
     dev: false
@@ -3471,17 +3413,6 @@ packages:
   /queue-tick/1.0.1:
     resolution: {integrity: sha512-kJt5qhMxoszgU/62PLP1CJytzd2NKetjSRnyuj31fDd3Rlcz3fzlFdFLD1SItunPwyqEOkca6GbV612BWfaBag==}
 
-  /qwik-fontawesome/0.2.0_tcw7cb3ew3o3ccrsxqqtzt3fsq:
-    resolution: {integrity: sha512-oeyAby5zu7tDL5T6Kq13MkVpv5lCE4Bis3PT6z1H899UyOls5o+JZyUePpnUN65OobJ9UjEr2mzyQ8bv35VAMA==}
-    engines: {node: '>=15.0.0'}
-    peerDependencies:
-      '@builder.io/qwik': ^1.1.0
-      '@fortawesome/fontawesome-svg-core': ^6.4.0
-    dependencies:
-      '@builder.io/qwik': 1.2.3
-      '@fortawesome/fontawesome-svg-core': 6.4.0
-    dev: false
-
   /rc/1.2.8:
     resolution: {integrity: sha512-y3bGgqKj3QBdxLbLkomlohkvsA8gdAiUQlSBJnBhfn+BPxg4bc62d8TcBW15wavDfgexCgccckhcZvywyQYPOw==}
     hasBin: true
@@ -3490,10 +3421,6 @@ packages:
       ini: 1.3.8
       minimist: 1.2.8
       strip-json-comments: 2.0.1
-
-  /react-is/16.13.1:
-    resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
-    dev: false
 
   /read-cache/1.0.0:
     resolution: {integrity: sha512-Owdv/Ft7IjOgm/i0xvNDZ1LrRANRfew4b2prF3OWMQLxLfu3bS8FVhCsrSCMK4lR56Y9ya+AThoTpDCTxCmpRA==}
