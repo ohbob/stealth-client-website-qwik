@@ -6,7 +6,7 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Returns Serial ID for gump with list index *GumpIndex*
 

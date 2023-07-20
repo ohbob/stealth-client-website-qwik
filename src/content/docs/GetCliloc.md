@@ -6,10 +6,10 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Retuns tooltip for object wth id *ObjID*, empty line if no tooltip.
-Synonym for [GetTooltip](Api/GetTooltip)
+Synonym for [GetTooltip](../GetTooltip)
 
 
 **Pascal Syntax:**

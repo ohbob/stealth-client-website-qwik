@@ -7,7 +7,7 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
 Returns the layer number 0x14 - Cloak.
 

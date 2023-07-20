@@ -3,7 +3,7 @@ import matter from "gray-matter";
 
 import type { Post } from "~/types";
 
-const BLOG_DIR = "src/content/blog";
+const BLOG_DIR = "src/content/manuals";
 
 const load = () => {
   const files = fs.readdirSync(BLOG_DIR);

@@ -6,7 +6,7 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Move all items from ***Container*** to container ***DestContainer*** with delay between movements ***DelayMS***
 

@@ -7,7 +7,7 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
 Returns the chars energy resistance(Energy Resist).
 

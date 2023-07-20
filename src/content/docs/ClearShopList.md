@@ -7,9 +7,9 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
-Clears the content of Shop List (filled up with items from Vendor's shop list, when you write buy, or select Buy item in its context menu). The content of this list can be taken from script by [GetShopList](Api/GetShopList)) method.
+Clears the content of Shop List (filled up with items from Vendor's shop list, when you write buy, or select Buy item in its context menu). The content of this list can be taken from script by [GetShopList](../GetShopList)) method.
 
 
 Pascal

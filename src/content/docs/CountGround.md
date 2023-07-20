@@ -7,11 +7,11 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
 Searching for items with type ***ObjType*** on the ground and returning FindFullQuantity.
 
-NB: The search on the ground limited by [FindDistance](Api/FindDistance) and [FindDistance](Api/FindDistance)
+NB: The search on the ground limited by [FindDistance](../FindDistance) and [FindDistance](../FindDistance)
 
 Pascal
 

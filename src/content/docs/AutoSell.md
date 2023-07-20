@@ -6,7 +6,7 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Applying for present sell lists, or set the hook for next incoming sell lists.
 
@@ -17,7 +17,7 @@ For hook removing need to set AutoSell with "Quantity" param = 0.
 
 ### Params:
 
-  *ItemType* : Type of Object. Can be a number (numerical or hex) (-1 or $FFFF for any type) OR name of type in TypesCollection (**DWS only** - read more about [Collections](Api/Collections)) 
+  *ItemType* : Type of Object. Can be a number (numerical or hex) (-1 or $FFFF for any type) OR name of type in TypesCollection (**DWS only** - read more about [Collections](../Collections)) 
 
   *ItemColor* : Number (numerical or hex). Use $FFFF or -1 for any color.
 

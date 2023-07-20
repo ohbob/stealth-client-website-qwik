@@ -6,7 +6,7 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Returns string with name of character's current active ability 
 NB: If no active ability, return value is '0'

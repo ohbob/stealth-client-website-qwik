@@ -7,7 +7,7 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
 Search for the objects with specified array of types ***ObjTypes *** and array of colors ***Colors *** in the array of Containers ***Containers***.
 
@@ -20,23 +20,23 @@ If no objects found, or char disconnected - returns 0.
 NB: Method inside will go through each type\color\location and execute a simple findtypeex command.
 
 Search result:
-* A list of found objects can be obtained ny methods [GetFindedList](Api/GetFindedList) or [GetFoundItems](Api/GetFoundItems) 
-* The last object was found also stored in [FindItem](Api/FindItem)  
-* [FindCount](Api/FindCount)   returns amount of found items (without stacks content)
-* [FindQuantity](Api/FindQuantity)   returns quantity of last finded object (object field).
-* [FindFullQuantity](Api/FindFullQuantity) returns amount of found items (including stacks content)
+* A list of found objects can be obtained ny methods [GetFindedList](../GetFindedList) or [GetFoundItems](../GetFoundItems) 
+* The last object was found also stored in [FindItem](../FindItem)  
+* [FindCount](../FindCount)   returns amount of found items (without stacks content)
+* [FindQuantity](../FindQuantity)   returns quantity of last finded object (object field).
+* [FindFullQuantity](../FindFullQuantity) returns amount of found items (including stacks content)
 
 
 
 Search distance modifiers:
 
-* [FindDistance](Api/FindDistance) - specifies the search range by horizontal
-* [FindVertical](Api/FindVertical) - specifies the search range by vertical
+* [FindDistance](../FindDistance) - specifies the search range by horizontal
+* [FindVertical](../FindVertical) - specifies the search range by vertical
 
 Array items in parameter ***Containers*** can be:
 
-- [Backpack](Api/Backpack)
-- [Ground](Api/Ground) 
+- [Backpack](../Backpack)
+- [Ground](../Ground) 
 - $FFFFFFFF(= -1)
 - ID of the required container (if object with ID not exists, searching in Backpack)
 

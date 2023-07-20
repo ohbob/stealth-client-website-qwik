@@ -7,7 +7,7 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
 Returns date-time of last successful connection to server.
 If no successful connection yet - result will be 30.12.1899 , which is equalent to 0 in Delphi date format

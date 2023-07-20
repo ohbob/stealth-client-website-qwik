@@ -7,9 +7,9 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
-Clears the list of map figures, added by [AddFigure](Api/AddFigure) method
+Clears the list of map figures, added by [AddFigure](../AddFigure) method
 
 
 Pascal

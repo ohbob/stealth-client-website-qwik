@@ -6,7 +6,7 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Returns stack size for object *ObjID*
 

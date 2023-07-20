@@ -7,7 +7,7 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
 Search all object in world coordinates ***X*** and ***Y***, and returns last ID.
 

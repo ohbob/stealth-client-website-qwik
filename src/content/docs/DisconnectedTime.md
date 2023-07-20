@@ -7,7 +7,7 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
 Returns date-time of last successful disconnection to server.
 If no successful connection yet - result will be time of char profile loaded in Stealth.

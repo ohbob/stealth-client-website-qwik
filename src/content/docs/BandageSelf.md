@@ -6,14 +6,13 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Try to find bandages in backpack, if found - use it with target to Self.
 
 N.B. Works ONLY with client version 5.0.4+
 
-<br> 
-### DWS\Pascal Script:
+ ### DWS\Pascal Script:
 
 ```pascal
 procedure BandageSelf;

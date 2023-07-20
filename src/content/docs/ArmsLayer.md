@@ -6,15 +6,14 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Returns layer number $13 - Arms(elbows)
 
 Normally, that should be a simple constant, not function. But due to backwards compatibility it should be keeped as function.
 
 
-<br> 
-### DWS\Pascal Script:
+ ### DWS\Pascal Script:
 
 ```pascal
 function ArmsLayer : Byte;

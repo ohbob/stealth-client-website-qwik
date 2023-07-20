@@ -6,17 +6,17 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 **Description:**
 
 Calculates path from present position to point with *DestX* and *DestY*. Calculated path point will be written to *PathArray*. Returns path length.
  
-*Optimized* - not in use, left for compatibility. Use [MoveHeuristicMult](Api/MoveHeuristicMult)
+*Optimized* - not in use, left for compatibility. Use [MoveHeuristicMult](../MoveHeuristicMult)
 *Accuracy* - approaching accuracy: 0 - exactly to destination point, 1 - in area of 1 tiles from destination point, etc. Limited to 1000 tiles.
 *PathArray* - founded points array.
 
-This method call [GetPathArray3D](Api/GetPathArray3D) for calculation.
+This method call [GetPathArray3D](../GetPathArray3D) for calculation.
 **Pascal Syntax:**
 
 ```pascal

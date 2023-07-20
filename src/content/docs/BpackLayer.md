@@ -6,16 +6,15 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Returns layer number $15 - Character's Bag (Backpack).
 
-The result of the ObjAtLayer(BpackLayer) should be similar to [Backpack](Api/Backpack)
+The result of the ObjAtLayer(BpackLayer) should be similar to [Backpack](../Backpack)
 
 Normally, that should be a simple constant, not function. But due to backwards compatibility it should be keeped as function.
 
-<br> 
-### DWS\Pascal Script:
+ ### DWS\Pascal Script:
 
 ```pascal
 function BpackLayer : Byte;

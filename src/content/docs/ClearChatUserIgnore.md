@@ -7,9 +7,9 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
-Clears the list of ignored user names for incoming messages (filled up by method [AddChatUserIgnore](Api/AddChatUserIgnore))
+Clears the list of ignored user names for incoming messages (filled up by method [AddChatUserIgnore](../AddChatUserIgnore))
 
 
 

@@ -6,7 +6,7 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Returns reagent type: Ginseng ($0F85)
 

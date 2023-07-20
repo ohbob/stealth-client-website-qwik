@@ -7,7 +7,7 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
 Method takes item "on finger". 
 Returns True on success, False if:
@@ -16,7 +16,7 @@ Returns True on success, False if:
 
 if item in Stack, and ***Amount*** > items in Stack, method will drag ***Amount*** of items, else will drag all items in stack.
 
-NB: this method drag item "on finger", not to some container or ground. Use [DropItem](Api/DropItem) to drop item from "finger". 
+NB: this method drag item "on finger", not to some container or ground. Use [DropItem](../DropItem) to drop item from "finger". 
 
 
 

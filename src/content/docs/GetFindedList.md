@@ -6,15 +6,15 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Fill UserList by search results. If found nothing, returns false and empty list, else true.
 
-Search can be done with [FindType](Api/FindType), [FindTypeEx](Api/FindTypeEx), [FindNotoriety](Api/FindNotoriety), etc
+Search can be done with [FindType](../FindType), [FindTypeEx](../FindTypeEx), [FindNotoriety](../FindNotoriety), etc
 
 WARNING! IDs in list in hex!
 
-NB: Starting from version 7.9.0 function [GetFoundItems](Api/GetFoundItems) available, returns array of found items.
+NB: Starting from version 7.9.0 function [GetFoundItems](../GetFoundItems) available, returns array of found items.
 
 **Pascal Syntax:**
 
@@ -42,4 +42,4 @@ end;
 
 **Python Syntax:**
 #### NB: Python doesn't support this method ####
-See [GetFoundList](Api/GetFoundList)
+See [GetFoundList](../GetFoundList)

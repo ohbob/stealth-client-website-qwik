@@ -6,9 +6,9 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
-Returns value of delay, which used after buy through [AutoBuy](Api/AutoBuy) or [AutoBuyEx](Api/AutoBuyEx)
+Returns value of delay, which used after buy through [AutoBuy](../AutoBuy) or [AutoBuyEx](../AutoBuyEx)
 Default value is 3 ms
 
 **Pascal Syntax:**

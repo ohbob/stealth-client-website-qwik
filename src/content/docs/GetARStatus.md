@@ -6,7 +6,7 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Returns reconnector state (for current character): True = enabled, False = disabled
 

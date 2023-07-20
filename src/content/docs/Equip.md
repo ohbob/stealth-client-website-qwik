@@ -7,7 +7,7 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
 Wear item with ID ***Obj*** to the specified layer ***Layer***.
 

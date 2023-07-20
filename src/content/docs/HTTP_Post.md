@@ -7,7 +7,7 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
 Executing HTTP Post for the selected *URL* .
 
@@ -15,7 +15,7 @@ PostData can be in *PostData* param (f.e. as pairs).
 
 NB: In DWS *PostData* param can be String, f.e. Json etc.
 
-Results of execution can be obtained by [HTTP_Body](Api/HTTP_Body) and [HTTP_Header](Api/HTTP_Header).
+Results of execution can be obtained by [HTTP_Body](../HTTP_Body) and [HTTP_Header](../HTTP_Header).
 
 NB: If Post failed - HTTP_Header will return error message;
 

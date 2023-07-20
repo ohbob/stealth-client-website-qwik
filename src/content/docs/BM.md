@@ -6,14 +6,13 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Returns reagent type: Blood Moss ($0F7B)
 
 Normally, that should be a simple constant, not function. But due to backwards compatibility it should be keeped as function.
 
-<br> 
-### DWS\Pascal Script:
+ ### DWS\Pascal Script:
 
 ```pascal
 function BM : Word;

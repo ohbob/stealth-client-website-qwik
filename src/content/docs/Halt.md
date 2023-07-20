@@ -7,7 +7,7 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
 Immendiately stops the current running internal script (PS or DWS).
 

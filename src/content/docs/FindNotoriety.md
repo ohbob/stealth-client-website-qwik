@@ -7,7 +7,7 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
 Search for the mobile with specified type ***ObjType*** and its ***Notoriety*** (in client looks like Objects peacefulness - usually object name color) on the ground.
 
@@ -16,11 +16,11 @@ Returns the last object found using the function.
 If no objects found, or char disconnected - returns 0.
 
 Search result:
-* A list of found objects can be obtained ny methods [GetFindedList](Api/GetFindedList) or [GetFoundItems](Api/GetFoundItems) 
-* The last object was found also stored in [FindItem](Api/FindItem)  
-* [FindCount](Api/FindCount) returns amount of found items (without stacks content)
-* [FindQuantity](Api/FindQuantity) returns quantity of last finded object (object field).
-* [FindFullQuantity](Api/FindFullQuantity) returns amount of found items (including stacks content)
+* A list of found objects can be obtained ny methods [GetFindedList](../GetFindedList) or [GetFoundItems](../GetFoundItems) 
+* The last object was found also stored in [FindItem](../FindItem)  
+* [FindCount](../FindCount) returns amount of found items (without stacks content)
+* [FindQuantity](../FindQuantity) returns quantity of last finded object (object field).
+* [FindFullQuantity](../FindFullQuantity) returns amount of found items (including stacks content)
 
 
 

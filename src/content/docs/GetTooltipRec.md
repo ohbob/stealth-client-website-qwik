@@ -6,10 +6,10 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Retuns tooltip for object wth id *ObjID* as record with ClilocID and params, ClilocID=0 and params empty if no tooltip.
-Synonym for [GetCliloc](Api/GetCliloc)
+Synonym for [GetCliloc](../GetCliloc)
 
 
 **Pascal Syntax:**

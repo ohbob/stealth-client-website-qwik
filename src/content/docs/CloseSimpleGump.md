@@ -7,10 +7,10 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
 Close Gump with index in Stealth Gumps List ***GumpIndex***
-NB: Only Gump with missing propert "noclose" can be closed. Use method [IsGumpCanBeClosed](Api/IsGumpCanBeClosed) to check, if gump can be close this way.
+NB: Only Gump with missing propert "noclose" can be closed. Use method [IsGumpCanBeClosed](../IsGumpCanBeClosed) to check, if gump can be close this way.
 
 
 Pascal

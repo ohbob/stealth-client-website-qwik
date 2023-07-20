@@ -7,9 +7,9 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
-Sending text line to connected Client, Extended version of [ClientPrint](Api/ClientPrint))
+Sending text line to connected Client, Extended version of [ClientPrint](../ClientPrint))
 You can set:
 * SenderID (ID of object, text will be shown above of it). 0 means text will be in lower left corner of the screen
 * Color - Text color. 0 mean default color.

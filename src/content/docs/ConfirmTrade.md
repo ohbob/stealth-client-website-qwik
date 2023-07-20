@@ -7,7 +7,7 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
 Confirm Trade. In clients its checkbox set.
 

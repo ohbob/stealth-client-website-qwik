@@ -6,13 +6,13 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Retrieve all Buttons info for the gump with list index *GumpIndex*
 
 Returns nothing if gump index incorrect (out of gumps list) or char disconnected.
 
-Method is similar to [GetGumpShortLines](Api/GetGumpShortLines) and [GetGumpFullLines](Api/GetGumpFullLines), but contains info ONLY for buttons.
+Method is similar to [GetGumpShortLines](../GetGumpShortLines) and [GetGumpFullLines](../GetGumpFullLines), but contains info ONLY for buttons.
 
 **Pascal Syntax:**
 

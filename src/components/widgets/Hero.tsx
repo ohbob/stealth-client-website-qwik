@@ -1,8 +1,12 @@
 import { component$ } from "@builder.io/qwik";
 import { Image } from "@unpic/qwik";
-
 const coverImage =
-  "https://images.unsplash.com/photo-1590767950092-42b8362368da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3087&q=80";
+  "/window.png";
+
+const windows = "https://eu2.contabostorage.com/2e3384f1ecd34bf0b79b2ed8b513abf6:stealth-releases/Stealth_Latest.rar"
+const linux = "https://eu2.contabostorage.com/2e3384f1ecd34bf0b79b2ed8b513abf6:stealth-releases/Stealth_Linux_Latest.zip"
+const macosx = "https://eu2.contabostorage.com/2e3384f1ecd34bf0b79b2ed8b513abf6:stealth-releases/UOStealth.pkg"
+
 
 export default component$(() => {
   return (
@@ -14,42 +18,48 @@ export default component$(() => {
           <div class="mx-auto text-center basis-1/2 lg:text-left md:pb-16 pb-12 lg:pb-0">
             <div>
               <h1 class="text-5xl md:text-[3.48rem] font-bold leading-tighter tracking-tighter mb-4 font-heading px-4 md:px-0">
-                Free template for <br class="hidden lg:block" />{" "}
-                <span class="hidden lg:inline">create a website using </span>{" "}
-                <span class="text-[#039de1]">Qwik</span> +{" "}
+                Elevate your Ultima Online Gameplay <br />
+                <span class="text-[#039de1]">Hadless client</span> +{" "}
                 <span class="sm:whitespace-nowrap text-[#039de1]">
-                  Tailwind CSS
+                  Script Engine
                 </span>
               </h1>
               <div class="max-w-3xl mx-auto">
                 <p class="text-xl text-gray-600 mb-8 dark:text-slate-400">
-                  <span class="font-semibold underline decoration-wavy decoration-1 decoration-secondary-600 underline-offset-2">
-                    Qwind
-                  </span>{" "}
-                  is a production ready template to start your new website using{" "}
-                  <em>Qwik</em> + <em>Tailwind CSS</em>. It has been designed
-                  following Best Practices, SEO, Accessibility,{" "}
-                  <span class="inline md:hidden">...</span>
-                  <span class="hidden md:inline">
-                    Dark Mode, Great Page Speed, image optimization, sitemap
-                    generation and more.
-                  </span>
+
+                  Powered by Pascal and Python programming languages, empowers you to take control like never before. Automate tasks, exchange data seamlessly, and execute dynamic scripts. Level up your gaming with our advanced scripting capabilities.
                 </p>
                 <div class="flex flex-col flex-nowrap gap-4 m-auto max-w-xs sm:flex-row sm:justify-center sm:max-w-md lg:justify-start lg:m-0 lg:max-w-7xl">
                   <div class="flex w-full sm:w-auto">
                     <a
-                      class="btn btn-primary sm:mb-0 w-full"
-                      href="https://github.com/onwidget/qwind"
+                        class="btn bg-gray-50 dark:bg-transparent sm:mb-0 w-full"
+                        href={windows}
+                        target="_blank"
+                        rel="noopener"
+                    >
+                      Windows
+                    </a>
+                  </div>
+
+                  <div class="flex w-full sm:w-auto">
+                    <a
+                      class="btn bg-gray-50 dark:bg-transparent sm:mb-0 w-full"
+                      href={linux}
                       target="_blank"
                       rel="noopener"
                     >
-                      Get template
+                      Linux
                     </a>
                   </div>
                   <div class="flex w-full sm:w-auto">
-                    <button class="btn w-full bg-gray-50 dark:bg-transparent">
-                      Learn more
-                    </button>
+                    <a
+                        class="btn bg-gray-50 dark:bg-transparent sm:mb-0 w-full"
+                        href={macosx}
+                        target="_blank"
+                        rel="noopener"
+                    >
+                      Mac OSX
+                    </a>
                   </div>
                 </div>
               </div>

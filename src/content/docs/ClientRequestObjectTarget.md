@@ -7,13 +7,13 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
 Sending an object target request to connected Client.
 This method using only for targettting objects, not tiles.
 
 
-Result (Targettted object) can be obtained by [ClientTargetResponse](Api/ClientTargetResponse) method.
+Result (Targettted object) can be obtained by [ClientTargetResponse](../ClientTargetResponse) method.
 
 Pascal
 

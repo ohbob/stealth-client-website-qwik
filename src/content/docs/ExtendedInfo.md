@@ -7,7 +7,7 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
 Returns extended info of char in SE++ version of UO (if is sent by server)
 

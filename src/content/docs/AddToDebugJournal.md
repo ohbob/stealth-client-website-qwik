@@ -6,7 +6,7 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Add line to debug journal in Editor (Run script in Debug mode in Editor to see Debug Journal area)
 
@@ -15,8 +15,7 @@ Add line to debug journal in Editor (Run script in Debug mode in Editor to see D
   *Msg* : String for adding
 
 
-<br> 
-### DWS\Pascal Script:
+ ### DWS\Pascal Script:
 
 ```pascal
 procedure AddToDebugJournal(Msg : String);

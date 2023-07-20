@@ -6,13 +6,13 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Return name of object *ObjID*
 
 If char disconnected, or no paperdoll open for *ObjID* - return empty string.
 
-Use [UseObject](Api/UseObject) to request paperdoll from server.
+Use [UseObject](../UseObject) to request paperdoll from server.
 
 Example of result: 'The Lord Che-Burashka, Grandmaster Chef'
 

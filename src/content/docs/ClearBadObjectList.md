@@ -7,10 +7,10 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
 Clears the list of impassable objects, which can be filled up by:
-* by function [SetBadObject](Api/SetBadObject) calling
+* by function [SetBadObject](../SetBadObject) calling
 
 
 Pascal

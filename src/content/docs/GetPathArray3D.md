@@ -6,7 +6,7 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 **Description:**
 
@@ -19,7 +19,7 @@ AccuracyXY, AccuracyZ - approaching accuracy: 0 - exactly to destination point, 
 Run - will character run or walk.
 *PathArray* - founded points array.
 
-NB: For calculation optimization setting use [MoveHeuristicMult](Api/MoveHeuristicMult)
+NB: For calculation optimization setting use [MoveHeuristicMult](../MoveHeuristicMult)
 
 **Pascal Syntax:**
 

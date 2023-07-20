@@ -6,7 +6,7 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 When called, the icon in the system tray stealth flashes red. After click on stealth tray icon - "alarm" is reset (icon stop flashing).
 

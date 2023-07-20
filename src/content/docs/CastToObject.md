@@ -7,12 +7,12 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
 
 
 Cast spell *SpellName* to Object with ID *ObjectID*
-List of default spells names you can find in [Cast](Api/Cast)
+List of default spells names you can find in [Cast](../Cast)
 
 Pascal
 

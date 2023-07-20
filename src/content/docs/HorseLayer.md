@@ -6,7 +6,7 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Returns layer number 0x19 - returns saddle ID, if char is mounted.
 

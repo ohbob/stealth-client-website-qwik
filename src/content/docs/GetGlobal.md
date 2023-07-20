@@ -6,7 +6,7 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Retuens value of variable *VarName* with the *VisibilityArea*. 
 

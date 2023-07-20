@@ -7,9 +7,9 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
-Clear content of InfoWindow (filled up by different methods, such as [GetGumpTextLines](Api/GetGumpTextLines), [PrintScriptMethodsList](Api/PrintScriptMethodsList), [GetShopList](Api/GetShopList) etc.)
+Clear content of InfoWindow (filled up by different methods, such as [GetGumpTextLines](../GetGumpTextLines), [PrintScriptMethodsList](../PrintScriptMethodsList), [GetShopList](../GetShopList) etc.)
 
 
 Pascal

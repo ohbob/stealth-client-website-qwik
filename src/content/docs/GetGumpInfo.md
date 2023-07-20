@@ -6,7 +6,7 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Returns struct gumpInfo with FULL gump info for the gump with list index *GumpIndex*
  

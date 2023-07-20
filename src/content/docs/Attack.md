@@ -6,7 +6,7 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Attack mobile.
 
@@ -14,11 +14,10 @@ If you are not in War mode, Stealth will switch it on before the attack.
 
 ### Params:
 
-  *ObjID* : ID of Object. Can be a number (numerical or hex) OR name of object in ObjectsCollection (**DWS only** - read more about [Collections](Api/Collections))
+  *ObjID* : ID of Object. Can be a number (numerical or hex) OR name of object in ObjectsCollection (**DWS only** - read more about [Collections](../Collections))
 
 
-<br> 
-### DWS\Pascal Script:
+ ### DWS\Pascal Script:
 
 ```pascal
 procedure Attack(ObjID : Cardinal);

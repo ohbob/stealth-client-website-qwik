@@ -7,9 +7,9 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
-Returns index of matched param in multi-params line in [WaitJournalLine](Api/WaitJournalLine), [InJournal](Api/InJournal) and similar methods.
+Returns index of matched param in multi-params line in [WaitJournalLine](../WaitJournalLine), [InJournal](../InJournal) and similar methods.
 
 For example, search line is "create|make|destroy|already". Found in journal string with word "destroy". FoundedParamId will returns 2.
 

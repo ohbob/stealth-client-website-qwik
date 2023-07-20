@@ -7,9 +7,9 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
-Check, if object\tile is already targetted, or not yet (target request sent by [ClientRequestObjectTarget](Api/ClientRequestObjectTarget) or  [ClientRequestTileTarget](Api/ClientRequestTileTarget))
+Check, if object\tile is already targetted, or not yet (target request sent by [ClientRequestObjectTarget](../ClientRequestObjectTarget) or  [ClientRequestTileTarget](../ClientRequestTileTarget))
 
 
 Pascal

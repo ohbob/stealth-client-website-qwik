@@ -6,7 +6,7 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Returns the distance from character's location to object with ID *ObjID*. 
 If Object is not exists, returns -1, else returns distance in tiles.

@@ -6,14 +6,13 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Beep by internal speaker (if exists).
 
 Very old function, present times ising rarely.
 
-<br> 
-### DWS\Pascal Script:
+ ### DWS\Pascal Script:
 
 
 ```pascal

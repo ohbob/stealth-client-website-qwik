@@ -6,11 +6,11 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Set hook for ONE incoming gump and check ALL existing gumps in stealth gump list for containing radiobuttons with **"return_value"** *RadiobuttonID*, if found - changing its **"status"** to *Value*. Normally,  **"status"** 0 mean unchecked, any other - checked.
 
-NB: This method does NOT send a gump reply to server, it's just changing checkboxes status values. For reply to gump use [WaitGump](Api/WaitGump) or [NumGumpButton](Api/NumGumpButton)
+NB: This method does NOT send a gump reply to server, it's just changing checkboxes status values. For reply to gump use [WaitGump](../WaitGump) or [NumGumpButton](../NumGumpButton)
 
 Pascal
 

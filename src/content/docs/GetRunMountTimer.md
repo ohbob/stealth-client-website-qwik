@@ -6,7 +6,7 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Delay between steps when running on mount(horse etc) with Move* and Step* functions
 

@@ -7,7 +7,7 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
 Returns status of the connection with the UO server: 'True - connected, 'False - not connected
 

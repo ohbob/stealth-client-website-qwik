@@ -7,9 +7,9 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
-Specifies the range for search methods [FindType](Api/FindType) or [FindTypeEx](Api/FindTypeEx) by horizontal.
+Specifies the range for search methods [FindType](../FindType) or [FindTypeEx](../FindTypeEx) by horizontal.
 
 For example, 3 - will search on all tiles inside 3 tiles radius.
 

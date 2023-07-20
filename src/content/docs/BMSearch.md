@@ -6,7 +6,7 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Search for *Pattern* in *Source*, starting from pos *StartPos*.
 

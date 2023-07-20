@@ -7,7 +7,7 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
 Close Gump with  ***ID*** on connected Client.
 

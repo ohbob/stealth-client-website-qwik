@@ -6,7 +6,7 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Add text line to Journal (**not** SysJournal!)
 
@@ -15,8 +15,7 @@ Add text line to Journal (**not** SysJournal!)
   *Text* : String for adding
 
 
-<br> 
-### DWS\Pascal Script:
+ ### DWS\Pascal Script:
 
 ```pascal
 procedure AddToJournal(Text : String);

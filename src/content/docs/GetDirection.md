@@ -6,7 +6,7 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Returns character direction(0-7)
 Total we have 8 directions in UO: North, NorthEast, East,SouthEast, South, SouthWest, West,NorthWest.

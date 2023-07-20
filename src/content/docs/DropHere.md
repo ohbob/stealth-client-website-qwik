@@ -7,13 +7,13 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
 Drop item with ID ***ItemID*** to ground under char's feet.
 
 Returns True or False.
 
-NB: Calling inside 2 methods: [DragItem](Api/DragItem) + [DropItem](Api/DropItem)
+NB: Calling inside 2 methods: [DragItem](../DragItem) + [DropItem](../DropItem)
 
 Pascal
 

@@ -6,14 +6,13 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Returns backpack ID (of Current Character)
 
 If char not connected to UO server - returns 0.
 
-<br> 
-### DWS\Pascal Script:
+ ### DWS\Pascal Script:
 
 ```pascal
 function Backpack : Cardinal;

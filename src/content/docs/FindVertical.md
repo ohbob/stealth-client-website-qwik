@@ -7,9 +7,9 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
-Specifies the range for search methods [FindType](Api/FindType) or [FindTypeEx](Api/FindTypeEx) by vertical.
+Specifies the range for search methods [FindType](../FindType) or [FindTypeEx](../FindTypeEx) by vertical.
 
 Default - 5.
 

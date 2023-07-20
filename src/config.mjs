@@ -1,10 +1,10 @@
 export const SITE = {
-  name: "Qwind",
+  name: "Stealth Client",
 
   title:
-    "Qwind — Free template for Qwik + Tailwind CSS to build your new website.",
+    "Take Your Ultima Online Gameplay to New Heights with Headless Client and Scripting capabilities",
   description:
-    "Qwind is a free and ready to start template to make your website using Qwik and Tailwind CSS.",
+    "Elevate your Ultima Online (UO) gaming experience with advanced headless client scripting. Harness the power of Python and Pascal programming languages to automate tasks, exchange data seamlessly, and execute dynamic scripts. Unlock new possibilities, enhance your gameplay, and dominate the virtual realms of UO like never before.",
 
   origin: "localhost",
   basePathname: "/",

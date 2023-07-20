@@ -6,17 +6,16 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
-Add figure to list and returns its index (can be used for [RemoveFigure](Api/RemoveFigure))
+Add figure to list and returns its index (can be used for [RemoveFigure](../RemoveFigure))
 
 The figure will be drawed on Map page for **current** char. Figures are not cleaning when disconnected.
 
 ### Params:
   *figure* : TMapFigure record with figure params.
 
-<br> 
-### DWS\Pascal Script:
+ ### DWS\Pascal Script:
 
 ```pascal
 function AddFigure(const figure : TMapFigure) : Cardinal;
@@ -34,7 +33,7 @@ TMapFigure = record
   brushColor : TColor;
   brushStyle : TBrushStyle;
   color : TColor;
-  worldNum : Byte; //Number of World (Present world number can be obtained by [WorldNum](Api/WorldNum)). At the moment, 6 world available (Felucca=0, Trammel=1, Ilshenar=2, Malas=3, Tokuno=4, Tel Mur=5).
+  worldNum : Byte; //Number of World (Present world number can be obtained by [WorldNum](../WorldNum)). At the moment, 6 world available (Felucca=0, Trammel=1, Ilshenar=2, Malas=3, Tokuno=4, Tel Mur=5).
   text : String;  
 end;
 ```

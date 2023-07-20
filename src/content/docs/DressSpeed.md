@@ -7,7 +7,7 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
 Dress-Undress delay (between every item dress-undress)
 

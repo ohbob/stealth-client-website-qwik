@@ -1,9 +1,9 @@
 import { component$, useStore } from "@builder.io/qwik";
 import { useContent } from "@builder.io/qwik-city";
-
 import Logo from "~/components/common/Logo";
 import ToggleTheme from "~/components/common/ToggleTheme";
 import ToggleMenu from "~/components/common/ToggleMenu";
+
 
 export default component$(() => {
   const store = useStore({
@@ -45,7 +45,7 @@ export default component$(() => {
           >
             {menu && menu.items ? (
               <ul class="flex flex-col pt-8 md:pt-0 md:flex-row md:self-center w-full md:w-auto text-xl md:text-lg">
-                {menu.items?.map((item, key) => (
+                {menu.items.map((item, key) => (
                   <li key={key} class={`${item.items ? "dropdown" : ""}`}>
                     {item.href ? (
                       <a
@@ -85,9 +85,11 @@ export default component$(() => {
             <a
               href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=stealthclient%40protonmail.com&currency_code=USD&source=url"
               aria-label="Donate"
-              class="ml-3 btn btn-primary w-full h-10 px-5 shadow-none text-base"
+              class="ml-3 btn bg-green-100 dark:bg-transparent w-full h-10 px-5 shadow-none text-base"
             >
               Donate
+
+
             </a>
           </div>
         </div>

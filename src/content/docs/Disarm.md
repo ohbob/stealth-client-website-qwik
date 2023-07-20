@@ -7,11 +7,11 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
 Disarms both (right and left) hands
 
-Iterates through the layers of both hands and calling [UnEquip](Api/UnEquip) for these layers.
+Iterates through the layers of both hands and calling [UnEquip](../UnEquip) for these layers.
 
 
 If char disconnected, or the movement of the object from hand to the backpack failed - will return False.

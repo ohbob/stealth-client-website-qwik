@@ -7,11 +7,11 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
-Dress set of clothes that was saved by [SetDress](Api/SetDress) method.
+Dress set of clothes that was saved by [SetDress](../SetDress) method.
 
-Synonym for [DressSavedSet](Api/DressSavedSet)
+Synonym for [DressSavedSet](../DressSavedSet)
 
 On dressing successful returns True.
 

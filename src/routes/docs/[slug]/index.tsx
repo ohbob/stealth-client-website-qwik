@@ -40,7 +40,7 @@ export default component$(() => {
             <DocsSidebar />
             </section>
           <article class="col-span-10">
-            <header class={post?.image ? "text-center" : ""}>
+            <header class={post.image ? "text-center" : ""}>
               <h1 class="leading-tighter font-heading mx-auto mb-8 max-w-3xl px-4 text-4xl font-bold tracking-tighter sm:px-6 md:text-5xl">
                 {post.title}
               </h1>

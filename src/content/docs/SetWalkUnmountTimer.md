@@ -6,7 +6,7 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Set delay between steps when walking(not running!) without mount with Move* and Step* functions
 

@@ -1,1 +1,0 @@
-let e={text:"Menu",items:[{text:"Docs",href:"/docs/AddChatUserIgnore/"},{text:"Blog",href:"/blog/"},{text:"Forum",href:"/forum/"}]};export{e as default};

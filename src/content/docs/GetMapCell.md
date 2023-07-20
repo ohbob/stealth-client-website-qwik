@@ -6,7 +6,7 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Information about Map (Land) cell, including its tile and Z.
 

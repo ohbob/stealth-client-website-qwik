@@ -6,13 +6,12 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Returns reagent type: Black Pearl ($0F7A)
 
 
-<br> 
-### DWS\Pascal Script:
+ ### DWS\Pascal Script:
 
 ```pascal
 function BP : Word;

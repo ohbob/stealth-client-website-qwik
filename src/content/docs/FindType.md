@@ -7,7 +7,7 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
 Search for the objects with specified type ***ObjType*** in specified container ***Container***.
 
@@ -15,26 +15,26 @@ Returns the last object found using the function.
 
 If no objects found, or char disconnected - returns 0.
 
-NB: THis method is NOT searching in subcontainers! For searching in subcontainers use [FindTypeEx](Api/FindTypeEx) with True in last param.
+NB: THis method is NOT searching in subcontainers! For searching in subcontainers use [FindTypeEx](../FindTypeEx) with True in last param.
 
 Search result:
-* A list of found objects can be obtained ny methods [GetFindedList](Api/GetFindedList) or [GetFoundItems](Api/GetFoundItems) 
-* The last object was found also stored in [FindItem](Api/FindItem)  
-* [FindCount](Api/FindCount)   returns amount of found items (without stacks content)
-* [FindQuantity](Api/FindQuantity)   returns quantity of last finded object (object field).
-* [FindFullQuantity](Api/FindFullQuantity) returns amount of found items (including stacks content)
+* A list of found objects can be obtained ny methods [GetFindedList](../GetFindedList) or [GetFoundItems](../GetFoundItems) 
+* The last object was found also stored in [FindItem](../FindItem)  
+* [FindCount](../FindCount)   returns amount of found items (without stacks content)
+* [FindQuantity](../FindQuantity)   returns quantity of last finded object (object field).
+* [FindFullQuantity](../FindFullQuantity) returns amount of found items (including stacks content)
 
 
 
 Search distance modifiers:
 
-* [FindDistance](Api/FindDistance) - specifies the search range by horizontal
-* [FindVertical](Api/FindVertical) - specifies the search range by vertical
+* [FindDistance](../FindDistance) - specifies the search range by horizontal
+* [FindVertical](../FindVertical) - specifies the search range by vertical
 
 The parameter ***Container*** can be:
 
-- [Backpack](Api/Backpack)
-- [Ground](Api/Ground) 
+- [Backpack](../Backpack)
+- [Ground](../Ground) 
 - $FFFFFFFF(= -1)
 - ID of the required container (if object with ID not exists, searching in Backpack)
 

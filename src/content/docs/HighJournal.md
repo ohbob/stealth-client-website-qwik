@@ -6,7 +6,7 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Returns index of last line in Journal (UO journal, not systemjournal)
 

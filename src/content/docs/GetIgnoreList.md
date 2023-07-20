@@ -6,11 +6,11 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Fill UserList by ids from IgnoreList in string format. If IgnoreList is empty, returns false and empty list, else true.
 
-IgnoreList filled up by [Ignore](Api/Ignore) and [IgnoreOff](Api/IgnoreOff), cleaned by [IgnoreReset](Api/IgnoreReset)
+IgnoreList filled up by [Ignore](../Ignore) and [IgnoreOff](../IgnoreOff), cleaned by [IgnoreReset](../IgnoreReset)
 
 WARNING! IDs in list in hex!
 

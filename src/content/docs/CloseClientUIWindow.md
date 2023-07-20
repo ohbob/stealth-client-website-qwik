@@ -7,7 +7,7 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
 Close window with type ***UIWindowType** and  ***ID*** on connected Client.
 

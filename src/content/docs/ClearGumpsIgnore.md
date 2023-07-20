@@ -7,9 +7,9 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
-Clears the list of ignored gumps (GumpIgnore list) (filled up by methods [AddGumpIgnoreByID](Api/AddGumpIgnoreByID) and [AddGumpIgnoreBySerial](Api/AddGumpIgnoreBySerial))
+Clears the list of ignored gumps (GumpIgnore list) (filled up by methods [AddGumpIgnoreByID](../AddGumpIgnoreByID) and [AddGumpIgnoreBySerial](../AddGumpIgnoreBySerial))
 
 
 Pascal

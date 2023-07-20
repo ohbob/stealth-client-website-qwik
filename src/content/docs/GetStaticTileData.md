@@ -6,11 +6,11 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Detailed information about Static tile, including Flags and Name.
 
-NB: In PS you can use method [AnsiByteArrayToString](Api/AnsiByteArrayToString) to convert "array of Char" to "String"
+NB: In PS you can use method [AnsiByteArrayToString](../AnsiByteArrayToString) to convert "array of Char" to "String"
 
 **Pascal Syntax:**
 ```pascal

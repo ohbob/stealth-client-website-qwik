@@ -7,11 +7,11 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
-After calling [HTTP_Get](Api/HTTP_Get) or [HTTP_Post](Api/HTTP_Post) you can obtain returned header by using this method.
+After calling [HTTP_Get](../HTTP_Get) or [HTTP_Post](../HTTP_Post) you can obtain returned header by using this method.
 
-NB: If [HTTP_Get](Api/HTTP_Get) or [HTTP_Post](Api/HTTP_Post) not called before, or calling failed - returns '';
+NB: If [HTTP_Get](../HTTP_Get) or [HTTP_Post](../HTTP_Post) not called before, or calling failed - returns '';
 
 Pascal
 

@@ -6,9 +6,9 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
-Reusable trap for the menu. Works the same as  [WaitMenu](Api/WaitMenu), but runs continuously until removed.
+Reusable trap for the menu. Works the same as  [WaitMenu](../WaitMenu), but runs continuously until removed.
 
 ### Params:
 
@@ -31,8 +31,7 @@ Reusable trap for the menu. Works the same as  [WaitMenu](Api/WaitMenu), but run
   5) '(cancel)' - menu will be cancelled.
 
 
-<br> 
-### DWS\Pascal Script:
+ ### DWS\Pascal Script:
 
 ```pascal
 procedure AutoMenu(MenuCaption : String; ElementCaption : String);

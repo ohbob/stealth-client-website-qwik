@@ -7,7 +7,7 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
 Searching for items with type ***ObjType*** and color *** Color*** in container ***Container*** and returning FindFullQuantity.
 

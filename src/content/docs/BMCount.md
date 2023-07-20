@@ -6,13 +6,12 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Returns amount of *Blood Moss* reagent in backpack
 
 
-<br> 
-### DWS\Pascal Script:
+ ### DWS\Pascal Script:
 
 ```pascal
 function BMCount : Word;

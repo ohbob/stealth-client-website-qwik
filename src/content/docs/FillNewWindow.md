@@ -7,11 +7,11 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
 Add string line to InfoWindow.
 
-NB: Setting [SetSilentMode](Api/SetSilentMode) has no effect for this method.
+NB: Setting [SetSilentMode](../SetSilentMode) has no effect for this method.
 
 
 Pascal

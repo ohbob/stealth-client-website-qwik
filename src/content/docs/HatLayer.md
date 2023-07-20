@@ -6,7 +6,7 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Returns layer number 0x06 - Hat(Helmets,etc)
 

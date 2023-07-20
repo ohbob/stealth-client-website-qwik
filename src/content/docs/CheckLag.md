@@ -7,7 +7,7 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
 Check Connection - send request and wait for answer *timeoutMS* milliseconds.
 

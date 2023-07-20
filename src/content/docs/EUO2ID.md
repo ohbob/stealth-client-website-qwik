@@ -7,7 +7,7 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
 Method converts EasyUO-style ID to Stealth ID.
 

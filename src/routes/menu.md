@@ -1,7 +1,7 @@
 # Menu
 
 ## [Docs](/docs/AddChatUserIgnore/)
-## [Blog](/blog)
+## [Manuals](/manuals)
 ## [Forum](/forum)
 
 

@@ -7,7 +7,7 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
 Searching for items with type ***ObjType*** in backpack and returning FindFullQuantity.
 

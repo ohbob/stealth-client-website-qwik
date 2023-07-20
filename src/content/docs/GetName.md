@@ -6,16 +6,16 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 **Description:**
 
 
 Return name of object *ObjID*, or "NoName" if char not connected, or name not sent by server.
 
-In some case need to use [ClickOnObject](Api/ClickOnObject) to request name from server.
+In some case need to use [ClickOnObject](../ClickOnObject) to request name from server.
 
-NB: "Name" for items (not mobiles!) usually not sent for clientver 4++. In this case try to use [GetTooltip](Api/GetTooltip)
+NB: "Name" for items (not mobiles!) usually not sent for clientver 4++. In this case try to use [GetTooltip](../GetTooltip)
 
 
 **Pascal Syntax:**

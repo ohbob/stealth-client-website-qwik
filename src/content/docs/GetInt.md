@@ -6,7 +6,7 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Returns stat *Int* (intelligence) for mobile with ID *ObjID*
 

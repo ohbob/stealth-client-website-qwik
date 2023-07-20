@@ -6,13 +6,12 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Bow - a gesture that will make your character
 
 
-<br> 
-### DWS\Pascal Script:
+ ### DWS\Pascal Script:
 
 ```pascal
 procedure Bow

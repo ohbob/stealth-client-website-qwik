@@ -6,11 +6,11 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Returns character "alternative name". Depends from server it can contains title, guild, profession or anything else, or be empty.
 
-NB: Sometimes you should call [ClickOnObject](Api/ClickOnObject) for filling "Name" and "AltName" fields.
+NB: Sometimes you should call [ClickOnObject](../ClickOnObject) for filling "Name" and "AltName" fields.
 
 **Pascal Syntax:**
 

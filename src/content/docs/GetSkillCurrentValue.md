@@ -6,13 +6,13 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Return skill value with modifiers (buffs, dress, etc). 
 
 If char disconnected - return 0
 
-For obtaining skill value WITHOUT modifiers - use [GetSkillValue](Api/GetSkillValue)
+For obtaining skill value WITHOUT modifiers - use [GetSkillValue](../GetSkillValue)
 
 <details>
 <summary>Default Skill names(can be changes on custom shards):</summary>

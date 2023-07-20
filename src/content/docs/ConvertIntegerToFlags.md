@@ -7,7 +7,7 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
 Translate the numeric bitmask value to the flags. 
 

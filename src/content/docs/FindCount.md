@@ -7,9 +7,9 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
-Returns the number of items found by using the functions [FindType](Api/FindType) or [FindTypeEx](Api/FindTypeEx)
+Returns the number of items found by using the functions [FindType](../FindType) or [FindTypeEx](../FindTypeEx)
 
 If no objects found, or char disconnected - returns 0.
 

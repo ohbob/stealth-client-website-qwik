@@ -6,7 +6,7 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Returns the direction for the step from point(Xfrom, Yfrom) to the point(Xto, Yto). 
 

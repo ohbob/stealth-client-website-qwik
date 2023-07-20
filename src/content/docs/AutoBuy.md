@@ -6,7 +6,7 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Applying for present buy lists, or set the hook for next incoming buy lists.
 
@@ -17,7 +17,7 @@ For hook removing need to set AutoBuy with "Quantity" param = 0.
 
 ### Params:
 
-  *ItemType* : Type of Object. Can be a number (numerical or hex) (-1 or $FFFF for any type) OR name of type in TypesCollection (**DWS only** - read more about [Collections](Api/Collections)) 
+  *ItemType* : Type of Object. Can be a number (numerical or hex) (-1 or $FFFF for any type) OR name of type in TypesCollection (**DWS only** - read more about [Collections](../Collections)) 
 
   *ItemColor* : Number (numerical or hex). Use $FFFF or -1 for any color.
 
@@ -25,8 +25,7 @@ For hook removing need to set AutoBuy with "Quantity" param = 0.
 
 
 
-<br> 
-### Pascal Script:
+ ### Pascal Script:
 
 ```pascal
 procedure AutoBuyEx(ItemType : Word; ItemColor : Word; Quantity : Word)

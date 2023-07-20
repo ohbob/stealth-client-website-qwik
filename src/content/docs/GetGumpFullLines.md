@@ -6,13 +6,13 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Retrieve info about 3 gump elements for the gump with list index *GumpIndex*
 
 Returns nothing if gump index incorrect (out of gumps list) or char disconnected.
 
-Method is similar to [GetGumpButtonsDescription](Api/GetGumpButtonsDescription) and [GetGumpShortLines](Api/GetGumpShortLines), but contains FULL gump info, including all elements and text lines.
+Method is similar to [GetGumpButtonsDescription](../GetGumpButtonsDescription) and [GetGumpShortLines](../GetGumpShortLines), but contains FULL gump info, including all elements and text lines.
 
 
 <details>

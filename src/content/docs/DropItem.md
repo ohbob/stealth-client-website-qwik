@@ -7,7 +7,7 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
 Method drop item from "finger" to selected container (or ground)
 

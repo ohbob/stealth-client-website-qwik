@@ -7,7 +7,7 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
 This function is used for console output in UO Client. For example - rune renaming.
 

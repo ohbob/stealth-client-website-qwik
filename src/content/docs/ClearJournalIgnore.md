@@ -7,9 +7,9 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
-Clears the list of ignored users for journalmessages (filled up by method [AddJournalIgnore](Api/AddJournalIgnore))
+Clears the list of ignored users for journalmessages (filled up by method [AddJournalIgnore](../AddJournalIgnore))
 
 
 Pascal

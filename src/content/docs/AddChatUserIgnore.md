@@ -6,7 +6,7 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Ignore messages from selected mobile (means messaged will not be shown in journal and can be taken by script methods).
 
@@ -16,8 +16,7 @@ Ignore messages from selected mobile (means messaged will not be shown in journa
 ### Params:
   *Mobile* : Name of mobile to be ignored. 
 
-<br> 
-### DWS\Pascal Script:
+ ### DWS\Pascal Script:
 
 ```pascal
 procedure AddChatUserIgnore(User : String);

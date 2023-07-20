@@ -7,9 +7,9 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
-Returns amount of items in stack, found by by using the functions [FindType](Api/FindType) or [FindTypeEx](Api/FindTypeEx)
+Returns amount of items in stack, found by by using the functions [FindType](../FindType) or [FindTypeEx](../FindTypeEx)
 
 If no objects found, or char disconnected - returns 0.
 

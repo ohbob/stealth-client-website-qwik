@@ -7,9 +7,9 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
-Delay after performing [DropItem](Api/DropItem)
+Delay after performing [DropItem](../DropItem)
 
 Default = 50ms.
 

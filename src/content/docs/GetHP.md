@@ -6,7 +6,7 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Returns property *HP* (life) for mobile with ID *ObjID*
 

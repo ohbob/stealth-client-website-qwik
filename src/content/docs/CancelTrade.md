@@ -6,7 +6,7 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 
 Cancel Trade with id *TradeNum* from TradesList.

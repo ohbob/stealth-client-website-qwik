@@ -7,7 +7,7 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
 Returns the chars cold resistance(Cold Resist).
 NB: Only works from the with the server's era "Samurai Empire" and higher  + server must sent advanced stats, otherwise always returns 0.

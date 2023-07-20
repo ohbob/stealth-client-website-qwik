@@ -6,7 +6,7 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 **Pascal Script** : Add text line to System Journal.
 
@@ -24,8 +24,7 @@ layout: blog
   Any amount of params, with any type.
 
 
-<br> 
-### Pascal Script:
+ ### Pascal Script:
 
 ```pascal
 procedure AddToSystemJournal(Text : String);

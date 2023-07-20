@@ -7,7 +7,7 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
 Returns distance between two point (X1,Y1 to X2,Y2) in tiles.
 

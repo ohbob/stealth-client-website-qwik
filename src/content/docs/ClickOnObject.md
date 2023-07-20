@@ -7,11 +7,11 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
 Single click on object, usually server returns object name and\or description.
 
-NB: This function CAN NOT be used for object tooltip, use [GetToolTip](Api/GetToolTip)) method.
+NB: This function CAN NOT be used for object tooltip, use [GetToolTip](../GetToolTip)) method.
 
 
 Pascal

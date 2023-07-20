@@ -6,7 +6,7 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Retuns last context menu items as strings. Format of result lines is "tag|clilocID|clilocText|flags|color", all numbers in hex.
 Example of return:

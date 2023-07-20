@@ -7,7 +7,7 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
 Check LineOfSight-LOS between 2 point.
 

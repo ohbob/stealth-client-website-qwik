@@ -6,7 +6,7 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Search of Static tile *TileType* in bound, limited by *Xmin*, *Ymin*, *Xmax*, *Ymax*, founded tiles added to *FoundTilesArray*. Returns found amount.
 

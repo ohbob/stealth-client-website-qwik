@@ -7,9 +7,9 @@ layout: blog
 
 ---
 
-# {title}
+ 
 
-Returns Target info from client (target request sent by [ClientRequestObjectTarget](Api/ClientRequestObjectTarget) or  [ClientRequestTileTarget](Api/ClientRequestTileTarget))
+Returns Target info from client (target request sent by [ClientRequestObjectTarget](../ClientRequestObjectTarget) or  [ClientRequestTileTarget](../ClientRequestTileTarget))
 
 
 Pascal

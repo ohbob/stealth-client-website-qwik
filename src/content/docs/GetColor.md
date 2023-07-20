@@ -6,7 +6,7 @@ summary: API
 layout: blog
 ---
 
-# {title}
+ 
 
 Return object color property. If color = 0, than mean Object will have default color(s).
 
