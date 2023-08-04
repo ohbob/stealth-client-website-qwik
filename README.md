@@ -11,3 +11,12 @@ All commands are run from the root of the project, from a terminal:
 | `npm run fmt`      | Format codes with Prettier                     |
 | `npm run lint`     | Run Eslint                                     |
 | `npm run qwik ...` | Run CLI commands like `qwik add`, `qwik build` |
+<<<<<<< Updated upstream
+=======
+
+
+## Static Site Generator (Node.js)
+```
+npm run build.server
+```
+>>>>>>> Stashed changes
